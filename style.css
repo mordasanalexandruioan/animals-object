@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.container h1 {
+    margin-bottom: 2px;
+    font-size: 2.5rem;
+}
+
+.container hr {
+    width: 400px;
+    margin: 20px 0px;
+}
+
+.card img {
+    max-width: 300px;
+}
+
+.card>* {
+    margin: 4px;
+    font-weight: 200;
+}
+
+.card h2 {
+    font-size: 1.9rem;
+}
+
+.card h3 {
+    font-size: 1.1rem;
+    color: rgb(107, 107, 107);
+}
+
+.card p {
+    font-size: 1rem;
+    color: rgb(107, 107, 107);
+}
