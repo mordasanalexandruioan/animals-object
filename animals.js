@@ -28,18 +28,20 @@ const animals = [{
     },
 ];
 
-let pets = document.querySelector('.card')
+let pets = document.querySelector('.cards')
 
 
 function displayAnimals() {
     let text = ``;
     for (let i = 0; i < animals.length; i++) {
         text += `
+        <div class="card">
         <h2>${animals[i].name}</h2>
             <h3>${animals[i].type} | ${animals[i].breed}</h3>
             <p>Age: ${animals[i].age}</p>
             <img src="${animals[i].photo}">
             <hr>
+            </div>
         `;
 
     }

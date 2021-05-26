@@ -24,12 +24,12 @@ body {
 }
 
 .container hr {
-    width: 400px;
+    width: 350px;
     margin: 20px 0px;
 }
 
 .card img {
-    max-width: 300px;
+    max-width: 270px;
 }
 
 .card>* {
